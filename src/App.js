@@ -1,9 +1,17 @@
+import { Route, Routes } from "react-router-dom";
+import AddFeedback from "./pages/add-feedback/add-feedback";
+import EditFeeddback from "./pages/edit-feedback/edit-feedback";
+import Feedback from "./pages/feedback/feedback";
+import Main from "./pages/main/main";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+      <Routes>
+        <Route path="/" element={< Main />} />
+        <Route path="/feedback/:id" element={<Feedback />}  />
+        <Route path="/add-feedback" element={<AddFeedback />} />
+        <Route path="/edit-feedback/:id" element={<EditFeeddback/>} />
+      </Routes>
   );
 }
 
