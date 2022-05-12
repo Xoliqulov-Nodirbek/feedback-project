@@ -1,8 +1,12 @@
 import { Route, Routes } from "react-router-dom";
+
 import AddFeedback from "./pages/add-feedback/add-feedback";
 import EditFeeddback from "./pages/edit-feedback/edit-feedback";
 import Feedback from "./pages/feedback/feedback";
 import Main from "./pages/main/main";
+
+// -----> Scss-link
+import "./sass/main.scss";
 
 function App() {
   return (

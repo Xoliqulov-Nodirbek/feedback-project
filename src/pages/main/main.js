@@ -1,7 +1,11 @@
 const Main = () => {
     return (
         <main>
-            <h1>Main</h1>
+            <div className="main__wrapper">
+                <div className="container">
+                    <h1>Main</h1>   
+                </div>
+            </div>
         </main>
     )
 }
