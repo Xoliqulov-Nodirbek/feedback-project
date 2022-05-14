@@ -3,7 +3,7 @@ const Main = () => {
         <main>
             <div className="main__wrapper">
                 <div className="container">
-                    <h1>Main</h1>   
+                    <h1>Main P  age</h1>   
                 </div>
             </div>
         </main>

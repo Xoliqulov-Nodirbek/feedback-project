@@ -1,6 +1,8 @@
 const AddFeedback = () => {
     return (
-        <h1>AddFeedback</h1> 
+        <div className="container">
+            <h1>AddFeedback</h1> 
+        </div>
     )
 }
 
